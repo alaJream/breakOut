@@ -1,9 +1,7 @@
-class GameLabel {
+class GameLabel extends Sprite {
   constructor(text, x, y, color) {
+    super(x, y, 0, 0, color);
     this.text = text;
-    this.x = x;
-    this.y = y;
-    this.color = color;
     this.value = 0;
   }
 
